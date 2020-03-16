@@ -1,0 +1,19 @@
+= content_for :active_dashboard, 'active'
+- add_breadcrumb( 'dashboard', dashboard_index_path)
+
+.section-controller
+  .content-header
+    .container-fluid
+      = render partial: 'shared/breadcrumb', locals: { title: t('dashboard.title') }
+  .content-header
+    .container-fluid
+      .row.mb-2
+        .col-sm-4
+          = render partial: 'shared/order-info', locals: { total: 150, info_name: 'New Orders', info_link: '#', controller: 'order'}
+        .col-sm-4
+          = render partial: 'shared/user-info', locals: { total: 50, info_name: 'User Registrations', info_link: '#', controller: 'user'}
+        .col-sm-4
+          = render partial: 'shared/user-info', locals: { total: 50, info_name: 'Sales', info_link: '#', controller: 'sale'}
+  section.content
+    .container-fluid
+      .row

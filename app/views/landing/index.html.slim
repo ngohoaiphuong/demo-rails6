@@ -1,0 +1,14 @@
+= content_for :layout_template, 'landing'
+.ms-road[data-controller='landing']
+  .authentication.animated.fadeIn.animation-delay-5
+    .authentication-container
+      .authentication-container--left.float-left
+        .authentication-container--logo
+      .authentication-container--right.float-left
+        .authentication-container-welcome
+          = render partial: 'landing/welcome', locals: { welcome: @welcome }
+        .authentication-container-login
+          .form-authentication
+            = render 'landing/login'
+        .authentication-container-footer
+          = render 'landing/actions'

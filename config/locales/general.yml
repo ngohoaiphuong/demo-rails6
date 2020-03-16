@@ -1,0 +1,36 @@
+vi:
+  hello: "Xin chào bạn"
+  welcome: 'Xin chào %{time}'
+  times:
+    morning: buổi sáng
+    noon: buổi trưa
+    night: buổi tối
+  days:
+    sunday: Chủ Nhật
+    monday: Thứ Hai
+    tuesday: Thứ Ba
+    wednesday: Thứ Tư
+    thursday: Thứ Năm
+    friday: Thứ Sáu
+    saturday: Thứ Bảy
+  more_info: Xem thêm&#127;
+  account:
+    profile: Hồ sơ
+    logout: Đăng xuất
+
+en:
+  hello: "Hello world"
+  welcome: 'Good %{time}'
+  times:
+    morning: morning
+    noon: afternoon
+    night: evening
+  days:
+    sunday: Sunday
+    monday: Monday
+    tuesday: Tuesday
+    wednesday: Wednesday
+    thursday: Thursday
+    friday: Friday
+    saturday: Saturday
+  more_info: More info&#127;

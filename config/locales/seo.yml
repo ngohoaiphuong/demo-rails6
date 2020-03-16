@@ -1,0 +1,15 @@
+vi:
+  seo:
+    default:
+      title: Application
+      short_title: Application
+      website_name: Application
+      description: Ứng dụng quản lý thông tin
+
+en:
+  seo:
+    default:
+      title: Application
+      short_title: Application
+      website_name: Application
+      description: Application for management information

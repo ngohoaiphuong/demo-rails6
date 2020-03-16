@@ -1,0 +1,31 @@
+vi:
+  authentication:
+    name: Nhập tên 
+    phone: Nhập số điện thoại
+    email: Nhập email
+    phone_email: Nhập số điện thoại hoặc email
+    password: Nhập mật khẩu
+    password_new: Nhập mật khẩu mới
+    password_confirmation: Nhập lại mật khẩu để xác nhận
+    forgot_password: Quên mật khẩu
+    login: Đăng Nhập
+    next: Tiếp Tục
+    errors:
+      missing: Thiếu thông tin đăng nhập
+      password_not_match: Mật khẩu không giống nhau
+
+en:
+  authentication:
+    name: Nhập tên 
+    phone: Nhập số điện thoại
+    email: Nhập email
+    phone_email: Nhập số điện thoại hoặc email
+    password: Nhập mật khẩu
+    password_new: Nhập mật khẩu mới
+    password_confirmation: Nhập lại mật khẩu để xác nhận
+    forgot_password: Quên mật khẩu
+    login: Đăng Nhập
+    next: Tiếp Tục
+    errors:
+      missing: Thiếu thông tin đăng nhập
+      password_not_match: Mật khẩu không giống nhau
