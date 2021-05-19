@@ -164,7 +164,9 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
-    mimemagic (0.3.4)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_magick (4.10.1)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
@@ -175,7 +177,7 @@ GEM
     net-ssh (5.2.0)
     netrc (0.11.0)
     ngrok-tunnel (2.1.1)
-    nio4r (2.5.2)
+    nio4r (2.5.7)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
@@ -184,7 +186,7 @@ GEM
       activerecord (>= 4.0, < 6.1)
     pg (1.2.2)
     public_suffix (4.0.3)
-    puma (4.3.3)
+    puma (4.3.8)
       nio4r (~> 2.0)
     puma-ngrok-tunnel (0.1.5)
       ngrok-tunnel (~> 2.1, >= 2.1.1)
@@ -356,7 +358,7 @@ DEPENDENCIES
   pagy
   paranoia (~> 2.2)
   pg (>= 0.18, < 2.0)
-  puma (~> 4.1)
+  puma (~> 4.3)
   puma-ngrok-tunnel
   rails (~> 6.0.2, >= 6.0.2.1)
   rails-erd
