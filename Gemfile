@@ -48,7 +48,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # ------------------------------ Add by team -------------------------------------------
 gem 'redis', '~> 4.0'
 gem 'sidekiq'
-gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.12'
 
 group :development do
   gem 'slim'

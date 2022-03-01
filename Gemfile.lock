@@ -121,7 +121,7 @@ GEM
       railties (>= 3.2, < 6.1)
     erubi (1.9.0)
     execjs (2.7.0)
-    ffi (1.12.2)
+    ffi (1.15.5)
     friendly_id (5.2.5)
       activerecord (>= 4.0.0)
     globalid (0.4.2)
@@ -134,7 +134,7 @@ GEM
       concurrent-ruby (~> 1.0)
     i18n-js (3.6.0)
       i18n (>= 0.6.6)
-    image_processing (1.10.3)
+    image_processing (1.12.2)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
     jbuilder (2.10.0)
@@ -164,8 +164,10 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
-    mimemagic (0.3.4)
-    mini_magick (4.10.1)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
+    mini_magick (4.11.0)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.0)
@@ -244,8 +246,8 @@ GEM
     rolify (5.2.0)
     ruby-graphviz (1.2.5)
       rexml
-    ruby-vips (2.0.17)
-      ffi (~> 1.9)
+    ruby-vips (2.1.4)
+      ffi (~> 1.12)
     ruby_dep (1.5.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -347,7 +349,7 @@ DEPENDENCIES
   friendly_id (~> 5.2.4)
   globalid
   i18n-js
-  image_processing (~> 1.2)
+  image_processing (~> 1.12)
   jbuilder (~> 2.7)
   js-routes
   letter_opener
